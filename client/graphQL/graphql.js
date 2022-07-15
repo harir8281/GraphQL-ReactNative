@@ -1,4 +1,4 @@
-import {gql} from 'graphql-tag';
+import {gql} from "@apollo/client";
 
 export const QUERY_ALL_USERS = gql`
   query GetAllUsers {
@@ -9,4 +9,4 @@ export const QUERY_ALL_USERS = gql`
       age
     }
   }
-`;
+`; 

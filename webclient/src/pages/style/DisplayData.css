@@ -1,0 +1,61 @@
+.container {
+    flex: 1;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-section{
+    flex: 1;
+    flex-direction: column;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left-section {
+    flex: 1;
+    background-color: rgb(246, 224, 117);
+}
+
+.getall-movie-section{
+    flex: 1;
+    background-color: lightpink;
+}
+.search-section {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.user-detail-container {
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.movie-detail-conatiner {
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+
+}
+
+p {
+    text-align: center;
+}
+input{
+    padding: 10px;
+}
+button{
+    background-color:crimson;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
+button:active{
+    background-color: greenyellow;
+    color: black;
+}

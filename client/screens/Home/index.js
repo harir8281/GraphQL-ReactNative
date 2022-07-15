@@ -8,18 +8,18 @@ const Home = () => {
   const {data, loading} = useQuery(QUERY_ALL_USERS);
 
 
-  const users = data?.GetAllUsers ?? [];
+  // const users = data?.GetAllUsers ?? [];
 
-  console.log(users)
+  // console.log(users)
 
 
   // if (data) {
   //   console.log(data);
   // }
 
-  // if (loading) {
-  //   console.log('data is loading');
-  // }
+  if (loading) {
+    console.log('data is loading');
+  }
 
   return (
     <View>

@@ -16,7 +16,6 @@ function TheStack() {
     </Stack.Navigator>
   );
 }
-// Initialize Apollo Client
 const client = new ApolloClient({
   uri: 'localhost:4000/graphql',
   cache: new InMemoryCache(),
