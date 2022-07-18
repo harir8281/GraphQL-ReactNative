@@ -5,57 +5,81 @@
     justify-content: space-between;
 }
 
-.middle-section{
+
+.left-input-section
+{
     flex: 1;
-    flex-direction: column;
-    background-color: darkgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: lightseagreen;
+    border: 1px;
+    border-style: dotted;
+   
+}
+.right-input-section{
+    flex: 1;
+    background-color: mediumpurple;
+    border: 1px;
+    border-style: dotted;
 }
 
 
-.left-section {
+
+.getall-user-section {
     flex: 1;
-    background-color: rgb(246, 224, 117);
+    background-color: plum;
+    border: 1px;
+    border-style: dotted;
 }
 
-.getall-movie-section{
+.getall-movie-section {
     flex: 1;
-    background-color: lightpink;
+    background-color: plum;
+    border: 1px;
+    border-style: dotted;
+
 }
+
 .search-section {
     flex: 1;
-    background-color: aquamarine;
+    flex-direction: column;
+    background-color: rgb(246, 224, 117);
+    display: flex;
+    border: 1px;
+    border-style: dotted;
+
 }
 
 .user-detail-container {
     border: 1px;
     border-color: black;
     border-style: dashed;
+    margin: 20px;
 }
-
 .movie-detail-conatiner {
     border: 1px;
     border-color: black;
     border-style: dashed;
-
+    margin: 10px;
 }
-
 p {
     text-align: center;
+    font-size: small
 }
-input{
+
+.input {
     padding: 10px;
+    margin: 10px;
 }
-button{
-    background-color:crimson;
+
+button {
+    background-color: crimson;
     border: none;
     padding: 10px;
     color: white;
     margin-top: 20px;
+    margin: 10px;
 }
-button:active{
+
+button:active {
     background-color: greenyellow;
     color: black;
 }

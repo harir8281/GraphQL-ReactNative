@@ -21,10 +21,30 @@ export const QUERY_ALL_MOVIES = gql`
 `;
 
 export const QUERY_MOVIE_BYNAME = gql`
-  query GetMovieByName($name: String!) {
+  query Movie($name: String!) {
     movie(name: $name) {
       name
       year
     }
   }
 `;
+
+//mutations
+
+export const CREATE_USER_MUTATIONS = gql`
+  mutation CreateUser($input: CreateUserInput!) {
+    createUser(input: $input) {
+      name
+      username
+      age
+      nationality
+    }
+  }
+`;
+
+// export const DELETE_USER_MUTATIONS = gql`
+//   mutation DeleteUser($deleteUserId:ID!) {
+//     deleteUser(id: $deleteUserId) {
+//     id
+//   }
+// `;

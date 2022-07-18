@@ -45,6 +45,7 @@ const typeDefs = gql`
     GERMANY
     FRANCE
     UKRINE
+    INDIA
   }
 `;
 
